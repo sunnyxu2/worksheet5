@@ -1,0 +1,11 @@
+  603  mkdir CUSTOMERS
+  604  > ws5.sh
+  605  chmod 755 ws5.sh
+  606  nano ws5.sh
+  607  cp stat_datamashing.sh ws5.sh
+  608  nano ws5.sh
+  609  cp 100_customers.sh ws5.sh
+  610  nano ws5.sh
+  611  ./ws5.sh num_customers.txt amazon_reviews_us_Books_v1_02.tsv CUSTOMERS
+  612  cp ws5.sh ws5
+  613  history > ws5/cmds.log
